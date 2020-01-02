@@ -285,26 +285,24 @@ footer {
 @media screen and (max-width: 640px) {
     .header-section {
         width: 100%;
-        margin: 0 auto;
     }
 
     header {
-        margin: 0 auto;
+        width: 100%;
     }
 
     nav {
-        padding: 0px 5px 0px 5px;
-        color: #999999;
-        text-decoration: none;
-        float: left;
-        margin: 0;
-    }
+        width: 100%;
+        background-color: white;
+        margin-bottom: 20px;
+        margin-left: -170px;
 
+    }    
     .main-page {
-        width: 540px;
-        height: 610px;
-        padding: 20px 30px 20px 30px;
-        margin-bottom: 50px;
+        width: 520px;
+        height: 950px;
+        padding: 40px 30px 40px 20px;
+        margin: 0px 0px 50px 30px;
         background-color: white;
         box-shadow: 4px 4px 15px 2px #333333;
         float: left;
@@ -317,8 +315,8 @@ footer {
     #portfolio-page,
     #contact-page,
     #bio-page  {
-        width: 500px;
-        height: 540px;
+        width: 490px;
+        height: 890px;
         margin: 0 auto;
     }
 
@@ -328,14 +326,14 @@ footer {
     }
 
     #my-image {
-        width: 180px;
-        height: 205px;
-        margin: 0px 20px 10px 0px;
+        width: 495px;
+        height: 515px;
+        margin: 0px 0px 20px 0px;
     }
 
     footer {
         position: absolute;
-        bottom:-130px;
+        bottom:-800px;
         width: 600px;
     }  
 }
