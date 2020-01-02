@@ -218,6 +218,66 @@ footer {
 
     footer {
         position: absolute;
-        bottom: -260px;
+        bottom: -280px;
+        width: 720px;
     }    
+}
+
+@media screen and (max-width: 768px) {
+    .header-section {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    header {
+        margin: 0 auto;
+    }
+
+    nav {
+        padding: 0px 15px 0px 15px;
+        color: #999999;
+        text-decoration: none;
+        float: left;
+        
+    }
+
+    .main-page {
+        width: 660px;
+        height: 650px;
+        padding: 10px 30px 40px 30px;
+        margin-bottom: 50px;
+        background-color: white;
+        box-shadow: 4px 4px 15px 2px #333333;
+        float: left;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
+        font-size: 1.0em;
+        line-height: 2em;
+    }
+
+    #portfolio-page,
+    #contact-page,
+    #bio-page  {
+        width: 620px;
+        height: 590px;
+        margin: 0 auto;
+    }
+
+    body {
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    #my-image {
+        width: 200px;
+        height: 225px;
+        margin: 0px 20px 20px 0px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: -280px;
+        width: 720px;
+    }    
+
 }
