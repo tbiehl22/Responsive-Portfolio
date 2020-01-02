@@ -218,7 +218,7 @@ footer {
 
     footer {
         position: absolute;
-        bottom: -280px;
+        bottom: -190px;
         width: 720px;
     }    
 }
@@ -234,50 +234,50 @@ footer {
     }
 
     nav {
-        padding: 0px 15px 0px 15px;
+        padding: 0px 5px 0px 5px;
         color: #999999;
         text-decoration: none;
         float: left;
-        
+        margin: 0;
     }
 
     .main-page {
-        width: 660px;
-        height: 650px;
-        padding: 10px 30px 40px 30px;
+        width: 540px;
+        height: 610px;
+        padding: 20px 30px 20px 30px;
         margin-bottom: 50px;
         background-color: white;
         box-shadow: 4px 4px 15px 2px #333333;
         float: left;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         color: #777777;
-        font-size: 1.0em;
+        font-size: 0.9em;
         line-height: 2em;
     }
 
     #portfolio-page,
     #contact-page,
     #bio-page  {
-        width: 620px;
-        height: 590px;
+        width: 500px;
+        height: 540px;
         margin: 0 auto;
     }
 
     body {
-        width: 720px;
+        width: 600px;
         margin: 0 auto;
     }
 
     #my-image {
-        width: 200px;
-        height: 225px;
-        margin: 0px 20px 20px 0px;
+        width: 180px;
+        height: 205px;
+        margin: 0px 20px 10px 0px;
     }
 
     footer {
         position: absolute;
-        bottom: -280px;
-        width: 720px;
+        bottom:-130px;
+        width: 600px;
     }    
 
 }
