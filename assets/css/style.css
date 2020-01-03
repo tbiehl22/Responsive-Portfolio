@@ -294,7 +294,8 @@ footer {
         width: 100%;
         background-color: white;
         margin-bottom: 20px;
-        margin-left: -170px;
+        margin-left: -165px;
+        font-size: 1.2em;
 
     }    
     .main-page {
